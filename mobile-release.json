@@ -1,0 +1,9 @@
+{
+  "version": "0.4.7",
+  "name": "DEEIX Chat v0.4.7 正式版",
+  "publishedAt": "2026-10-26",
+  "changelog": "### 🚀 DEEIX Chat v0.4.7 最终交付版\n- **1:1 对齐 Web 端分支机制**：彻底修复顺序对话流式期间历史消息被误判为平行分支隐藏的缺陷，实现平滑上下滑动回看；\n- **重试消息防重复对齐**：对齐 Web 端 `assistantOnlyBranch` 机制，助手失败重发时严格复用原用户节点，杜绝提问消息被重复渲染；\n- **流程状态真实还原**：消除内部上下文处理步骤误判为工具调用的现象，清晰呈现顶部思考及生成状态；\n- **项目管理深度还原**：移动端侧边栏完整支持项目分组折叠、项目专属对话新建与会话转移；\n- **静态更新与安全校验**：支持通过 GitHub 静态清单直连检测，内置 SHA-256 完整性哈希校验与多线镜像加速。",
+  "downloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.7/app-universal-release.apk",
+  "sha256": "149be8c950447a5543f0dc14ca7d098c6b0eb9118cec301decd90e14e63c47ca",
+  "apkSizeMB": 13.2
+}
