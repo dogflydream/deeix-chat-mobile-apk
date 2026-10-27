@@ -1,10 +1,10 @@
 {
-  "version": "0.4.9",
-  "name": "DEEIX Chat v0.4.9 原生加速与智能测速版",
+  "version": "0.4.10",
+  "name": "DEEIX Chat v0.4.10 响应防篡改与版本同步版",
   "publishedAt": "2026-10-27",
-  "changelog": "### 🚀 DEEIX Chat v0.4.9 体验优化版\n- **应用内原生极速下载**：接入原生 Android 流式下载引擎，彻底摆脱 WebView 跨域 (CORS) 限制与 Base64 内存开销，实现真正无感、免跳转浏览器的纯应用内静默下载与安装；\n- **智能线路测速与自适应选择**：提供 3 条国内加速镜像（`gh-proxy.com`、`ghfast.top`、`ghproxy.net`）及官方直连通道，内置毫秒级往返延迟探测，自动优选最快可用线路，并支持手动自由切换；\n- **断点防抖与自动故障转移**：主选线路若在下载过程中受阻，自动无缝切换到下一低延迟可用镜像继续下载，保障高可用；\n- **流式防抖全面保留**：持续集成端到端 clientRunID 渲染稳定化与流式生成平滑过渡。",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.9/app-universal-release.apk",
-  "rawDownloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.9/app-universal-release.apk",
-  "sha256": "9efdeddd894e5c8cb03b7beb5c7edd1476380563cfa90cec8dda40af9f7eb5fc",
+  "changelog": "### 🚀 DEEIX Chat v0.4.10 修复与对齐版\n- **修复 AI 响应被误替换为用户消息缺陷**：在消息增量对齐合并时严格按角色 (role) 隔离匹配，杜绝助手节点误读用户输入并覆盖回复内容的逻辑漏洞；\n- **全端版本号严格同步对齐**：全面同步 Android 原生系统包版本 (`versionName: 0.4.10`, `versionCode: 410`)、侧边栏底部常驻版本展示、设置中心与 GitHub Release Tag，彻底消除版本号滞后；\n- **原生应用内极速下载引擎**：原生流式写入磁盘，免跳转浏览器，彻底摆脱 WebView 跨域 (CORS) 限制；\n- **多镜像毫秒级智能测速优选**：内置国内 3 大加速镜像（`gh-proxy.com`、`ghfast.top`、`ghproxy.net`）与官方直连通道，自动锁定最低延迟连通线路。",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.10/app-universal-release.apk",
+  "rawDownloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.10/app-universal-release.apk",
+  "sha256": "64c8446dace4972bbc26123d802bf21e85a10e5619f8367dc18ea945b1c3c6e7",
   "apkSizeMB": 13.22
 }
