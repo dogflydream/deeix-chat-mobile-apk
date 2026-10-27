@@ -1,10 +1,10 @@
 {
-  "version": "0.4.12",
-  "name": "DEEIX Chat v0.4.12 更新非阻塞与原位编辑视口优化版",
+  "version": "0.4.13",
+  "name": "DEEIX Chat v0.4.13 跨会话编辑状态清理与对话框恢复版",
   "publishedAt": "2026-10-27",
-  "changelog": "### 🚀 DEEIX Chat v0.4.12 优化更新\n- **彻底消除更新检测卡死与阻塞**：重构测速探测器为 Android 原生多路并发异步探针（pingUrlAsync），测速耗时由 12s 锐降至 500ms 内，且零阻塞 JS 事件循环；\n- **启动检测升级为非侵入式轻量横幅**：后台静默检测到新版本时以顶部轻量卡片展示，绝不粗暴强弹模态框遮挡或抢夺输入焦点，用户随时可点可关；\n- **彻底解决提问编辑时看不全与被遮挡问题**：\n  1. 修复编辑历史提问时软键盘弹出触发自动滚到底部的致命 Bug；\n  2. 编辑时自动平滑聚焦并将编辑卡片定位在可视视口顶部；\n  3. 文本框支持内容自适应高度撑开（最高 35vh），长提示词一览无余；\n  4. 编辑模式下智能隐匿底部重复输入条，释放屏幕空间避免误导。\n- **全端版本号严格同步升级**：Android 系统包版本升级至 versionCode: 412, versionName: 0.4.12。",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.12/app-universal-release.apk",
-  "rawDownloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.12/app-universal-release.apk",
-  "sha256": "072924a270e03b5b69a0de2971603b4371418e44010868df963926e77e09fa9a",
+  "changelog": "### 🚀 DEEIX Chat v0.4.13 修复更新\n- **修复跨会话切换后对话框不显示的重大缺陷**：在切换不同会话、创建新会话、项目内新建对话时，自动且彻底重置上一个会话的提问编辑状态，杜绝由于编辑残留导致的底部输入控制栏隐匿；\n- **编辑状态自适应容错**：当当前可见消息拓扑变动且原编辑消息脱离视口时，自动安全退出编辑态，始终保障底部输入栏在所有会话中常驻可用；\n- **Android 返回键手势联动优化**：处于提问编辑模式时，按系统返回键优先安全取消编辑并恢复输入栏，不再误退整个应用；\n- **全端版本号严格同步**：Android 系统包升级至 versionCode: 413, versionName: 0.4.13。",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.13/app-universal-release.apk",
+  "rawDownloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.13/app-universal-release.apk",
+  "sha256": "656ddcb81a3e3218a8ea41171e43b9d712870564a1782962fd8c5ce75cc406ce",
   "apkSizeMB": 13.22
 }
