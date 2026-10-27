@@ -1,10 +1,10 @@
 {
-  "version": "0.4.13",
-  "name": "DEEIX Chat v0.4.13 跨会话编辑状态清理与对话框恢复版",
+  "version": "0.4.14",
+  "name": "DEEIX Chat v0.4.14 多模态生图/编辑/视频与Web端全对齐版",
   "publishedAt": "2026-10-27",
-  "changelog": "### 🚀 DEEIX Chat v0.4.13 修复更新\n- **修复跨会话切换后对话框不显示的重大缺陷**：在切换不同会话、创建新会话、项目内新建对话时，自动且彻底重置上一个会话的提问编辑状态，杜绝由于编辑残留导致的底部输入控制栏隐匿；\n- **编辑状态自适应容错**：当当前可见消息拓扑变动且原编辑消息脱离视口时，自动安全退出编辑态，始终保障底部输入栏在所有会话中常驻可用；\n- **Android 返回键手势联动优化**：处于提问编辑模式时，按系统返回键优先安全取消编辑并恢复输入栏，不再误退整个应用；\n- **全端版本号严格同步**：Android 系统包升级至 versionCode: 413, versionName: 0.4.13。",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.13/app-universal-release.apk",
-  "rawDownloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.13/app-universal-release.apk",
-  "sha256": "656ddcb81a3e3218a8ea41171e43b9d712870564a1782962fd8c5ce75cc406ce",
+  "changelog": "### 🎨 DEEIX Chat v0.4.14 多模态全交互对齐与深度优化\n- **媒体生成协议与分支树 1:1 严格对齐**：全面修复 `image_generation`、`image_edit`、`video_generation`、`video_extension` 请求 Payload 中 `options`、`parentMessagePublicID`、`sourceMessagePublicID`、`branchReason` 和 `fileIDs` 遗漏问题，生图/编辑/视频生成支持完整分支树管理与上下文重试；\n- **智能“以图生图 / 在生图中编辑”交互闭环**：生成的图片新增一键“以图生图”浮动按钮，轻触即可自动提取原图作为参考图添加至输入区，并智能切换至图像编辑引擎（`image_edit`），实现无缝修图体验；\n- **视频产物“延长视频”与原生播放增强**：生成的视频卡片增加一键“延长视频”快捷操作，自动作为单源视频装配并切换至视频扩展模型；新增历史会话视频持久化回显支持；\n- **图片与视频一键保存至本地相册**：每张生成的图片与视频均提供便捷保存按钮，支持直接存入 Android 本地相册与媒体库；\n- **生图骨架屏比例失真修复**：根据生成模型及 `options` 尺寸动态适配 `square` (1:1)、`portrait` (9:16/3:4) 与 `video` (16:9)，彻底消除图片生成时被强制压成视频 16:9 的视觉失真；\n- **全端版本号严格同步**：Android 系统包升级至 versionCode: 414, versionName: 0.4.14。",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.14/app-universal-release.apk",
+  "rawDownloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.14/app-universal-release.apk",
+  "sha256": "6c833ba1d963339a19fa4c6ecde7befe27e05589016c8199849f72a7f197a54f",
   "apkSizeMB": 13.22
 }
