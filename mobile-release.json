@@ -1,10 +1,10 @@
 {
-  "version": "0.4.14",
-  "name": "DEEIX Chat v0.4.14 多模态生图/编辑/视频与Web端全对齐版",
+  "version": "0.4.15",
+  "name": "DEEIX Chat v0.4.15 侧边栏检查更新即时体验优化版",
   "publishedAt": "2026-10-27",
-  "changelog": "### 🎨 DEEIX Chat v0.4.14 多模态全交互对齐与深度优化\n- **媒体生成协议与分支树 1:1 严格对齐**：全面修复 `image_generation`、`image_edit`、`video_generation`、`video_extension` 请求 Payload 中 `options`、`parentMessagePublicID`、`sourceMessagePublicID`、`branchReason` 和 `fileIDs` 遗漏问题，生图/编辑/视频生成支持完整分支树管理与上下文重试；\n- **智能“以图生图 / 在生图中编辑”交互闭环**：生成的图片新增一键“以图生图”浮动按钮，轻触即可自动提取原图作为参考图添加至输入区，并智能切换至图像编辑引擎（`image_edit`），实现无缝修图体验；\n- **视频产物“延长视频”与原生播放增强**：生成的视频卡片增加一键“延长视频”快捷操作，自动作为单源视频装配并切换至视频扩展模型；新增历史会话视频持久化回显支持；\n- **图片与视频一键保存至本地相册**：每张生成的图片与视频均提供便捷保存按钮，支持直接存入 Android 本地相册与媒体库；\n- **生图骨架屏比例失真修复**：根据生成模型及 `options` 尺寸动态适配 `square` (1:1)、`portrait` (9:16/3:4) 与 `video` (16:9)，彻底消除图片生成时被强制压成视频 16:9 的视觉失真；\n- **全端版本号严格同步**：Android 系统包升级至 versionCode: 414, versionName: 0.4.14。",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.14/app-universal-release.apk",
-  "rawDownloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.14/app-universal-release.apk",
-  "sha256": "6c833ba1d963339a19fa4c6ecde7befe27e05589016c8199849f72a7f197a54f",
+  "changelog": "### 🚀 DEEIX Chat v0.4.15 侧边栏检查更新即时体验优化\n- **侧边栏「检查更新」就地即时检测**：摒弃跳转复杂设置弹窗的繁琐路径，点击「检查更新」直接在侧边栏按钮原地呈现旋转 Loading 状态并弹出轻量 Toast 提示；\n- **智能直达更新弹窗**：检测到有新版本时，自动平滑收起侧边栏并直接唤起更新下载弹窗（展示更新日志、多线路测速与直连下载）；当前已是最新时，友好提示「当前已是最新版本 (v0.4.15) ✨」，一步到位且零打扰；\n- **多模态全能力持续稳定**：完整继承 v0.4.14 生图/编辑/视频与 Web 端的全交互对齐与相册保存能力；\n- **全端版本号严格同步**：Android 系统包升级至 versionCode: 415, versionName: 0.4.15。",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.15/app-universal-release.apk",
+  "rawDownloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.15/app-universal-release.apk",
+  "sha256": "660069f01556b9d6532f7f102ec924d96b1dc5c97a4df412f1aeca6516ec82ba",
   "apkSizeMB": 13.22
 }
