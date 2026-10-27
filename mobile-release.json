@@ -1,9 +1,9 @@
 {
-  "version": "0.4.7",
-  "name": "DEEIX Chat v0.4.7 正式版",
-  "publishedAt": "2026-10-26",
-  "changelog": "### 🚀 DEEIX Chat v0.4.7 最终交付版\n- **1:1 对齐 Web 端分支机制**：彻底修复顺序对话流式期间历史消息被误判为平行分支隐藏的缺陷，实现平滑上下滑动回看；\n- **重试消息防重复对齐**：对齐 Web 端 `assistantOnlyBranch` 机制，助手失败重发时严格复用原用户节点，杜绝提问消息被重复渲染；\n- **流程状态真实还原**：消除内部上下文处理步骤误判为工具调用的现象，清晰呈现顶部思考及生成状态；\n- **项目管理深度还原**：移动端侧边栏完整支持项目分组折叠、项目专属对话新建与会话转移；\n- **静态更新与安全校验**：支持通过 GitHub 静态清单直连检测，内置 SHA-256 完整性哈希校验与多线镜像加速。",
-  "downloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.7/app-universal-release.apk",
-  "sha256": "149be8c950447a5543f0dc14ca7d098c6b0eb9118cec301decd90e14e63c47ca",
-  "apkSizeMB": 13.2
+  "version": "0.4.8",
+  "name": "DEEIX Chat v0.4.8 流式防抖与交互体验优化版",
+  "publishedAt": "2026-10-27",
+  "changelog": "### 🚀 DEEIX Chat v0.4.8 体验优化版\n- **流式响应防抖与平滑过渡**：修复流式输出结束瞬间由于消息节点服务端 ID 对齐与重新拉取导致的内容瞬时消失、重绘闪烁缺陷；\n- **React 节点 Key 深度稳定化**：引入端到端一致的 clientRunID，保障消息从流式增量到持久化全程 DOM 不卸载重建；\n- **分支与树形索引无缝对齐**：原子化同步用户与助手节点 publicID，杜绝流式收尾间隙助手消息从可见列表脱节；\n- **在线自动更新实测**：支持静态清单极速直连、国内多线加速镜像与 SHA-256 完整性校验。",
+  "downloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.8/app-universal-release.apk",
+  "sha256": "38eccb123a1c203ade25a7ec9882e65a155ef59adf51d66e59dcb96bec8736a2",
+  "apkSizeMB": 13.22
 }
