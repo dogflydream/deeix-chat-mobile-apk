@@ -1,10 +1,10 @@
 {
-  "version": "0.4.8",
-  "name": "DEEIX Chat v0.4.8 流式防抖与交互体验优化版",
+  "version": "0.4.9",
+  "name": "DEEIX Chat v0.4.9 原生加速与智能测速版",
   "publishedAt": "2026-10-27",
-  "changelog": "### 🚀 DEEIX Chat v0.4.8 体验优化版\n- **流式响应防抖与平滑过渡**：修复流式输出结束瞬间由于消息节点服务端 ID 对齐与重新拉取导致的内容瞬时消失、重绘闪烁缺陷；\n- **React 节点 Key 深度稳定化**：引入端到端一致的 clientRunID，保障消息从流式增量到持久化全程 DOM 不卸载重建；\n- **分支与树形索引无缝对齐**：原子化同步用户与助手节点 publicID，杜绝流式收尾间隙助手消息从可见列表脱节；\n- **在线自动更新实测**：支持静态清单极速直连、国内多线加速镜像与 SHA-256 完整性校验。",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.8/app-universal-release.apk",
-  "rawDownloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.8/app-universal-release.apk",
-  "sha256": "38eccb123a1c203ade25a7ec9882e65a155ef59adf51d66e59dcb96bec8736a2",
+  "changelog": "### 🚀 DEEIX Chat v0.4.9 体验优化版\n- **应用内原生极速下载**：接入原生 Android 流式下载引擎，彻底摆脱 WebView 跨域 (CORS) 限制与 Base64 内存开销，实现真正无感、免跳转浏览器的纯应用内静默下载与安装；\n- **智能线路测速与自适应选择**：提供 3 条国内加速镜像（`gh-proxy.com`、`ghfast.top`、`ghproxy.net`）及官方直连通道，内置毫秒级往返延迟探测，自动优选最快可用线路，并支持手动自由切换；\n- **断点防抖与自动故障转移**：主选线路若在下载过程中受阻，自动无缝切换到下一低延迟可用镜像继续下载，保障高可用；\n- **流式防抖全面保留**：持续集成端到端 clientRunID 渲染稳定化与流式生成平滑过渡。",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.9/app-universal-release.apk",
+  "rawDownloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.9/app-universal-release.apk",
+  "sha256": "9efdeddd894e5c8cb03b7beb5c7edd1476380563cfa90cec8dda40af9f7eb5fc",
   "apkSizeMB": 13.22
 }
