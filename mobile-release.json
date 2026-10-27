@@ -1,10 +1,10 @@
 {
-  "version": "0.4.15",
-  "name": "DEEIX Chat v0.4.15 侧边栏检查更新即时体验优化版",
+  "version": "0.4.16",
+  "name": "DEEIX Chat v0.4.16 系统管理控制台深度增强版",
   "publishedAt": "2026-10-27",
-  "changelog": "### 🚀 DEEIX Chat v0.4.15 侧边栏检查更新即时体验优化\n- **侧边栏「检查更新」就地即时检测**：摒弃跳转复杂设置弹窗的繁琐路径，点击「检查更新」直接在侧边栏按钮原地呈现旋转 Loading 状态并弹出轻量 Toast 提示；\n- **智能直达更新弹窗**：检测到有新版本时，自动平滑收起侧边栏并直接唤起更新下载弹窗（展示更新日志、多线路测速与直连下载）；当前已是最新时，友好提示「当前已是最新版本 (v0.4.15) ✨」，一步到位且零打扰；\n- **多模态全能力持续稳定**：完整继承 v0.4.14 生图/编辑/视频与 Web 端的全交互对齐与相册保存能力；\n- **全端版本号严格同步**：Android 系统包升级至 versionCode: 415, versionName: 0.4.15。",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.15/app-universal-release.apk",
-  "rawDownloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.15/app-universal-release.apk",
-  "sha256": "660069f01556b9d6532f7f102ec924d96b1dc5c97a4df412f1aeca6516ec82ba",
+  "changelog": "### 🚀 DEEIX Chat v0.4.16 系统管理控制台深度增强\n- **账户密码管理彻底修复**：重构管理员密码重置交互（后端 payload 对齐 newPassword 标准规范），支持密码明暗文切换、随机生成安全强密码、一键复制到剪贴板、合规校验提示及首次登录强制改密选项；\n- **用户资料与余额配置升级**：支持修改用户显示昵称、邮箱、电话、权限角色与账号状态，支持管理端直接查询与手动充值/调整用户账户美元余额，支持一键强制注销全部活跃会话；\n- **权限组与上游模型管控**：支持新增与编辑权限分组，新增上游服务商 API Key 配置与多线路测速（Probe Route），支持模型目录一键远程同步与单模型可用性毫秒测速；\n- **专业产品文案规范化**：全平台彻底清除内部开发术语，界面文案全面专业化；\n- **全端版本号严格同步**：Android 系统包升级至 versionCode: 416, versionName: 0.4.16。",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.16/app-universal-release.apk",
+  "rawDownloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.16/app-universal-release.apk",
+  "sha256": "4b4ec28168d1afa1051c84519efa7595da61b0d34e91d88bc795a54d7be57c56",
   "apkSizeMB": 13.22
 }
