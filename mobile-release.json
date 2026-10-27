@@ -1,10 +1,10 @@
 {
-  "version": "0.4.11",
-  "name": "DEEIX Chat v0.4.11 响应流并发操作与树状分支重构稳定版",
+  "version": "0.4.12",
+  "name": "DEEIX Chat v0.4.12 更新非阻塞与原位编辑视口优化版",
   "publishedAt": "2026-10-27",
-  "changelog": "### 🚀 DEEIX Chat v0.4.11 稳定版更新\n- **解除响应流期间输入框与操作栏限制**：AI 正在流式响应时，输入框保持可编辑，支持预先打字输入、选择附件与调整模型参数，点击右侧按钮可直接中止生成；\n- **彻底修复对话重试与历史串联 Bug**：移除危险的倒序回溯循环，严格遵循 parentPublicID 关联提问节点，杜绝重试时错配并生成历史“苹果 SVG”代码；\n- **1:1 严格对齐 Web 端树状分支与调和算法**：重构 branching 模块，实现原子化 reconcileBranchSelections 与 buildTailVisibleMessages 拓扑回溯，彻底解决多轮对话错判为根分支 (< 1/2 >) 及内容拼接错乱；\n- **持久化 ID 与临时 ID 严格分层**：标准化 publicID 状态流转，杜绝临时客户端 ID 污染持久化消息树。",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.11/app-universal-release.apk",
-  "rawDownloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.11/app-universal-release.apk",
-  "sha256": "f2be48fcace6f015300c5a2beb1980c2bebd21d72564bdac72b169412e84caa7",
+  "changelog": "### 🚀 DEEIX Chat v0.4.12 优化更新\n- **彻底消除更新检测卡死与阻塞**：重构测速探测器为 Android 原生多路并发异步探针（pingUrlAsync），测速耗时由 12s 锐降至 500ms 内，且零阻塞 JS 事件循环；\n- **启动检测升级为非侵入式轻量横幅**：后台静默检测到新版本时以顶部轻量卡片展示，绝不粗暴强弹模态框遮挡或抢夺输入焦点，用户随时可点可关；\n- **彻底解决提问编辑时看不全与被遮挡问题**：\n  1. 修复编辑历史提问时软键盘弹出触发自动滚到底部的致命 Bug；\n  2. 编辑时自动平滑聚焦并将编辑卡片定位在可视视口顶部；\n  3. 文本框支持内容自适应高度撑开（最高 35vh），长提示词一览无余；\n  4. 编辑模式下智能隐匿底部重复输入条，释放屏幕空间避免误导。\n- **全端版本号严格同步升级**：Android 系统包版本升级至 versionCode: 412, versionName: 0.4.12。",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.12/app-universal-release.apk",
+  "rawDownloadUrl": "https://github.com/dogflydream/deeix-chat-mobile-apk/releases/download/v0.4.12/app-universal-release.apk",
+  "sha256": "072924a270e03b5b69a0de2971603b4371418e44010868df963926e77e09fa9a",
   "apkSizeMB": 13.22
 }
